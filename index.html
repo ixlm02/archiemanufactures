@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archie Manufactures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: white;
+            color: black;
+        }
+
+        header {
+            background-color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 1rem;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            text-align: center; /* Center the "Coming Soon" text */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position:relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .hero{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-hero-image.jpg');
+          background-size: cover;
+          background-position: center;
+          color: white;
+          text-align: center;
+          padding: 100px 0;
+        }
+
+        .logo {
+            max-width: 30%;
+            display: block;
+            margin: 0 auto;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="/home/architect/Programs/vape-website/icon/am.png" alt="Archie Manufactures Logo" class="logo">
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+      <h2>Premium Vaping Products</h2>
+      <p>Discover the difference.</p>
+
+    </div>
+
+    <section id="products">
+        <h2>Our Products</h2>
+
+        <div class="product">
+            <h3>MONO</h3>
+            <p>Introducing the MONO, a premium disposable vape designed for discerning enthusiasts. Featuring a powerful 1200 mAh battery and an integrated LCD display for real-time information, the MONO delivers a superior vaping experience. Encased in a sleek black housing with a unique holster grip inspired by the classic M1911 pistol, the MONO combines style and ergonomic comfort. Experience the future of disposable vaping with the MONO. Stay tuned for its release!</p>
+            <p>Preview coming Soon</p>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Archie Manufactures, our passion is driven by a relentless pursuit of excellence in the vaping industry. We believe in crafting not just products, but experiences that elevate the standards of quality and innovation. From the initial concept to the final product, every step in our process is infused with dedication and meticulous attention to detail. We are committed to fostering a community of discerning individuals who appreciate the artistry and technology behind exceptional vaping solutions. Our mission extends beyond mere manufacturing; we strive to be pioneers, constantly pushing the boundaries of what's possible, and setting new benchmarks for performance and reliability. We are dedicated to building lasting relationships with our customers, grounded in trust and a shared vision for the future of vaping.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@archiemanufactures.com</p>
+        <p>Phone: +1 (807) 357 5113</p>
+        <form action="thankyou.html" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Monarch Inc.</p>
+    </footer>
+
+</body>
+</html>
